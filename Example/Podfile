@@ -2,10 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'DKFilterView', :exclusive => true do
   pod "DKFilterView", :path => "../"
+  pod 'Masonry'
 end
 
 target 'Tests', :exclusive => true do
   pod "DKFilterView", :path => "../"
-
+  pod 'Masonry'
   pod 'FBSnapshotTestCase'
 end

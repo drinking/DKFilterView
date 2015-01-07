@@ -1,0 +1,20 @@
+PODS:
+  - DKFilterView (0.1.0)
+  - FBSnapshotTestCase (1.4)
+  - Masonry (0.5.3)
+
+DEPENDENCIES:
+  - DKFilterView (from `../`)
+  - FBSnapshotTestCase
+  - Masonry
+
+EXTERNAL SOURCES:
+  DKFilterView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DKFilterView: eac9cab4f003582a71633cbc5e9d696287082fc4
+  FBSnapshotTestCase: f9f225b5ba11c8d8c09075590490df16314e4d62
+  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
+
+COCOAPODS: 0.34.2
