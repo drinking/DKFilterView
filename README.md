@@ -6,10 +6,10 @@
 [![Platform](https://img.shields.io/cocoapods/p/DKFilterView.svg?style=flat)](http://cocoadocs.org/docsets/DKFilterView)
 
 ## Screenshot
-![image](http://img189.imageshack.us/img189/3955/07yh.gif)
+![image](https://raw.githubusercontent.com/drinking/DKFilterView/master/demo.gif)
 
 ## Usage
-Init your DKFilterView by constucting a DKFilterModel which contains your custome selection value. 
+Init your DKFilterView by constucting a DKFilterModel which contains your own selection value. 
 There are three types,`DK_SELECTION_SINGLE`,`DK_SELECTION_MULTIPLE` and `DK_SELECTION_PICK`.
 Run Demo to see each's behavior.
 
@@ -26,7 +26,7 @@ Run Demo to see each's behavior.
 ```
 ###Customization
 
-Implement `DKFilterViewDelegate` to custome your owner header view or click behavior.
+Implement `DKFilterViewDelegate` to customize your own header view or click behavior.
 
 ```objc
 
