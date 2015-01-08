@@ -14,27 +14,24 @@ There are three types,`DK_SELECTION_SINGLE`,`DK_SELECTION_MULTIPLE` and `DK_SELE
 Run Demo to see each's behavior.
 
 ```objc
-
-    NSArray *filterData =  @[@"Apple",@"Pear",@"Mango",@"Orange",@"Lychee",@"Coconut"];
-    DKFilterModel *model = [[DKFilterModel alloc] initElement:filterData ofType:DK_SELECTION_SINGLE];
-    model.title = @"Click";
-    model.style = DKFilterViewStyle1;
+NSArray *filterData =  @[@"Apple",@"Pear",@"Mango",@"Orange",@"Lychee",@"Coconut"];
+DKFilterModel *model = [[DKFilterModel alloc] initElement:filterData ofType:DK_SELECTION_SINGLE];
+model.title = @"Click";
+model.style = DKFilterViewStyle1;
     
-    DKFilterView *filterView = [[DKFilterView alloc] initWithFrame:self.view.frame];
-    [self.view addSubview:filterView];
-    [filterView setFilterModels:@[model]];
+DKFilterView *filterView = [[DKFilterView alloc] initWithFrame:self.view.frame];
+[self.view addSubview:filterView];
+[filterView setFilterModels:@[model]];
 ```
 ###Customization
 
 Implement `DKFilterViewDelegate` to customize your own header view or click behavior.
 
 ```objc
-
 - (NSInteger)getCustomSectionHeaderHeight;
 - (DKFilterSectionHeaderView *)getCustomSectionHeader;
 - (void)didClickAtModel:(DKFilterModel *)data;
 ```
-
 
 ## Installation
 
