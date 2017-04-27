@@ -23,7 +23,7 @@ DKFilterView *filterView = [[DKFilterView alloc] initWithFrame:self.view.frame];
 [self.view addSubview:filterView];
 [filterView setFilterModels:@[model]];
 ```
-###Customization
+### Customization
 
 Implement `DKFilterViewDelegate` to customize your own header view or click behavior.
 
